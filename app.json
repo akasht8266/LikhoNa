@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "LikhoNa",
+    "slug": "likhona",
+    "scheme": "likhona",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/likhona-icon.png",
+    "splash": {"image":"./assets/likhona-logo.png","resizeMode":"contain","backgroundColor":"#fff5f2"},
+    "android": {"package":"in.likhona.app", "versionCode":1, "adaptiveIcon":{"foregroundImage":"./assets/likhona-icon.png","backgroundColor":"#fff5f2"}, "permissions":["INTERNET"]},
+    "plugins": ["expo-router", "expo-secure-store", ["expo-image-picker", {"photosPermission":"LikhoNa needs photo access so you can add artwork to your poetry posts."}]],
+    "experiments":{"typedRoutes":true}
+  }
+}
